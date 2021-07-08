@@ -1,10 +1,8 @@
 import { Component } from "@angular/core";
 
-import template from "./app-component.html";
-
 @Component({
   selector: "app-component",
-  template,
+  template: "<div>AppComponent works!</div>",
 })
 export class AppComponent {
   constructor() {}

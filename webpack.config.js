@@ -8,10 +8,6 @@ module.exports = {
         test: /\.ts$/i,
         use: ["ts-loader"],
       },
-      {
-        test: /\.html$/i,
-        loader: "html-loader",
-      },
     ],
   },
 };
