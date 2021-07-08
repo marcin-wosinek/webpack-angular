@@ -1,10 +1,16 @@
 import "zone.js";
 
-import { NgModule } from "@angular/core";
+import { NgModule, Component } from "@angular/core";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 import { BrowserModule } from "@angular/platform-browser";
 
-import { AppComponent } from "./app-component";
+@Component({
+  selector: "app-component",
+  template: "<div>AppComponent works!</div>",
+})
+export class AppComponent {
+  constructor() {}
+}
 
 @NgModule({
   declarations: [AppComponent],
