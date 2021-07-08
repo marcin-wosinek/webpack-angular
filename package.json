@@ -1,0 +1,33 @@
+{
+  "name": "webpack-angular",
+  "version": "1.0.0",
+  "description": "Minimal angular application build with webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin-wosinek/webpack-angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcin-wosinek/webpack-angular/issues"
+  },
+  "homepage": "https://github.com/marcin-wosinek/webpack-angular#readme",
+  "devDependencies": {
+    "html-loader": "^2.1.2",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "@angular/core": "^12.1.1",
+    "@angular/platform-browser": "^12.1.1",
+    "@angular/platform-browser-dynamic": "^12.1.1"
+  }
+}
