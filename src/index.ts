@@ -1,6 +1,7 @@
 import "zone.js";
 
 import { NgModule, Component } from "@angular/core";
+import { HttpClientModule } from "@angular/common/http";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 import { BrowserModule } from "@angular/platform-browser";
 
@@ -14,7 +15,7 @@ export class AppComponent {
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule],
+  imports: [HttpClientModule, BrowserModule],
   bootstrap: [AppComponent],
 })
 export class AppModule {
