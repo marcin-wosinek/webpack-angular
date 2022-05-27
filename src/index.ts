@@ -1,7 +1,7 @@
 import "zone.js";
 
 import { NgModule, Component } from "@angular/core";
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule, HttpClient } from "@angular/common/http";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 import { BrowserModule } from "@angular/platform-browser";
 
@@ -19,7 +19,7 @@ export class AppComponent {
   bootstrap: [AppComponent],
 })
 export class AppModule {
-  constructor() {}
+  constructor(httpClient: HttpClient) {}
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
