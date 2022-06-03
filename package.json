@@ -27,7 +27,6 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "^14.0.0",
-    "@babel/register": "^7.17.7",
     "@ngtools/webpack": "^14.0.0",
     "babel-loader": "^8.2.5",
     "ts-loader": "^9.3.0",
