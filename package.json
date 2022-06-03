@@ -19,24 +19,24 @@
     "url": "https://github.com/marcin-wosinek/webpack-angular/issues"
   },
   "homepage": "https://github.com/marcin-wosinek/webpack-angular#readme",
+  "dependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@angular/platform-browser": "^14.0.0",
+    "@angular/platform-browser-dynamic": "^14.0.0"
+  },
   "devDependencies": {
-    "@angular/compiler-cli": "^13.3.10",
+    "@angular/compiler-cli": "^14.0.0",
     "@babel/register": "^7.17.7",
-    "@ngtools/webpack": "^13.3.7",
+    "@ngtools/webpack": "^14.0.0",
     "babel-loader": "^8.2.5",
-    "ts-loader": "9.3",
+    "ts-loader": "^9.3.0",
     "ts-node": "^10.8.0",
-    "typescript": "4.5",
+    "typescript": "^4.7.2",
     "typescript-node": "^0.1.3",
     "typescript-register": "^1.1.0",
     "typescript-require": "^0.3.0",
-    "webpack": "^5.72.1",
+    "webpack": "^5.73.0",
     "webpack-cli": "^4.9.2"
-  },
-  "dependencies": {
-    "@angular/common": "^13.3.10",
-    "@angular/core": "^13.3.10",
-    "@angular/platform-browser": "^13.3.10",
-    "@angular/platform-browser-dynamic": "^13.3.10"
   }
 }
