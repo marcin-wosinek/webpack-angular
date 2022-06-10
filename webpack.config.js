@@ -1,4 +1,3 @@
-import { AngularWebpackPlugin } from "@ngtools/webpack";
 import linkerPlugin from "@angular/compiler-cli/linker/babel";
 
 export default {
@@ -10,10 +9,6 @@ export default {
       {
         test: /\.ts$/i,
         use: ["ts-loader"],
-      },
-      {
-        test: /\.[jt]sx?$/,
-        loader: "@ngtools/webpack",
       },
       {
         test: /\.[cm]?js$/,
@@ -29,9 +24,5 @@ export default {
     ],
   },
 
-  plugins: [
-    new AngularWebpackPlugin({
-      tsconfig: "./tsconfig.json",
-    }),
-  ],
+  plugins: [],
 };
