@@ -8,10 +8,6 @@ export default {
   module: {
     rules: [
       {
-        test: /\.ts$/i,
-        use: ["ts-loader"],
-      },
-      {
         test: /\.[jt]sx?$/,
         loader: "@ngtools/webpack",
       },
